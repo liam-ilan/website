@@ -1,0 +1,51 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+  color: #017ec6;
+  text-decoration: none;
+}
+
+a:active {
+  color: #017ec6;
+}
+
+
+.toplink:hover {
+  font-size: 110%;
+}
+
+#subtitle{
+  text-align: center;
+  background-color: transparent;
+  height: 50px;
+  margin: 0px;
+}
+
+#title{
+  text-align: center;
+  background-color: transparent;
+}
+
+#links{
+  border-bottom: 5px solid #000000;
+  border-top: 5px solid #000000;
+  line-height: 50px;
+  background-color: #70d4ff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.itemtitle{
+  text-align: center;
+}
+
+.itemtext{
+  text-align: center;
+  font-size: 20px;
+}
+
