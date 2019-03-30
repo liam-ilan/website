@@ -1,51 +1,65 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: mono;
+  src: url(../fonts/mono.otf);
 }
 
-
-a {
-  color: #017ec6;
+a{
   text-decoration: none;
 }
 
-a:active {
-  color: #017ec6;
-}
-
-
-.toplink:hover {
-  font-size: 110%;
-}
-
-#subtitle{
-  text-align: center;
-  background-color: transparent;
-  height: 50px;
+body{
+  font-family: mono;
   margin: 0px;
+}
+
+.box{
+  display: inline-block;
+  color: #212121;
+  margin: 1vw;
+}
+
+.box-img{
+  width: 30vw;
+  height: 15vw;
+  object-fit: contain;
+}
+
+.box-title{
+  font-size: 30px;
+  text-align: center;
+  width: 30vw;
+}
+
+.box-text{
+  font-size: 20px;
+  text-align: center;
+  width: 30vw;
+}
+
+#boxes{
+  text-align: center;
+}
+
+#title-box{
+  background-color: #212121;
+  padding: 30px;
 }
 
 #title{
   text-align: center;
-  background-color: transparent;
+  font-size: 50px;
+  color: #ffffff;
 }
 
-#links{
-  border-bottom: 5px solid #000000;
-  border-top: 5px solid #000000;
-  line-height: 50px;
-  background-color: #70d4ff;
+#subtitle{
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 0px;
+  font-size: 30px;
+  color: #009cc8;
 }
 
-.itemtitle{
+#link-row{
+  font-size: 25px;
+  padding: 20px;
+  background-color: #eee;
   text-align: center;
 }
-
-.itemtext{
-  text-align: center;
-  font-size: 20px;
-}
-
