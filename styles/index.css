@@ -16,6 +16,7 @@ body{
   display: inline-block;
   color: #212121;
   margin: 1vw;
+  display: inline-table;
 }
 
 .box-img{
