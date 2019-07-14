@@ -1,5 +1,17 @@
 let data = [
   {
+    image: '../img/repl-hero.png',
+    title: 'Repl Hero',
+    description: 'Guitar Hero... FOR HACKERS.',
+    link: 'https://repl.it/talk/challenge/Repl-Hero-a-fun-music-arcade-game/16400'
+  },
+  {
+    image: '../img/sendverse.png',
+    title: 'Sendverse',
+    description: 'An anonymous chatting server you can deploy for your friends.',
+    link: 'https://github.com/liam-ilan/sendverse'
+  },
+  {
     image: '../img/monty-hall.png',
     title: 'The Monty Hall Problem',
     description: 'An interactive simulation of the Monty Hall Problem.',
@@ -46,5 +58,5 @@ let data = [
     title: 'The Train Game',
     description: 'A game about stopping trains.',
     link: 'https://the-train-game.surge.sh'
-  },
+  }
 ]

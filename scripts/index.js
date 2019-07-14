@@ -36,7 +36,6 @@ class Box {
     // add the box to boxes
     document.getElementById('boxes').appendChild(box)
   }
-
 }
 
 data = data.map((item) => new Box(item.title, item.description, item.image, item.link))
