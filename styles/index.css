@@ -12,6 +12,19 @@ body{
   margin: 0px;
 }
 
+@keyframes hover {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+
 .box{
   display: inline-block;
   color: #212121;
@@ -23,6 +36,11 @@ body{
   width: 30vw;
   height: 15vw;
   object-fit: contain;
+}
+
+.box-img:hover{
+  animation-name: hover;
+  animation-duration: 0.5s;
 }
 
 .box-title{
