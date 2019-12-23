@@ -55,6 +55,12 @@ body{
   width: 30vw;
 }
 
+.box-time{
+  font-size: 18px;
+  text-align: center;
+  width: 30vw;
+}
+
 #boxes{
   text-align: center;
 }

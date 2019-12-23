@@ -1,12 +1,13 @@
 
 // a box class for every project
 class Box {
-  constructor(titleInput, textInput, imgInput, linkInput) {
+  constructor(titleInput, textInput, imgInput, linkInput, timeInput) {
     // get inputs
     this.title = titleInput
     this.text = textInput
     this.img = imgInput
     this.link = linkInput
+    this.time = timeInput
 
     // the wrapper
     let box = document.createElement('a')
@@ -23,6 +24,11 @@ class Box {
     title.innerHTML = this.title
     title.className = 'box-title'
 
+    // the time
+    let time = document.createElement('div')
+    time.innerHTML = this.time
+    time.className = 'box-time'
+
     // the text
     let text = document.createElement('div')
     text.innerHTML = this.text
@@ -31,6 +37,7 @@ class Box {
     // append all items to the container
     box.appendChild(img)
     box.appendChild(title)
+    box.appendChild(time)
     box.appendChild(text)
 
     // add the box to boxes
@@ -38,4 +45,4 @@ class Box {
   }
 }
 
-data = data.map((item) => new Box(item.title, item.description, item.image, item.link))
+data = data.map((item) => new Box(item.title, item.description, item.image, item.link, item.time))
