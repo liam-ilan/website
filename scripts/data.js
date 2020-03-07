@@ -1,5 +1,12 @@
 let data = [
   {
+    image: '../img/ccc-challenge.png',
+    title: 'CCC Challenge',
+    time: '[2020]',
+    description: 'A collection of completed CCC problems.',
+    link: 'https://github.com/liam-ilan/ccc-challenge'
+  },
+  {
     image: '../img/repl-hero.png',
     title: 'Repl Hero',
     time: '[2019]',
