@@ -7,6 +7,13 @@ let data = [
     link: 'https://github.com/liam-ilan/ccc-challenge'
   },
   {
+    image: '../img/skin-cancer.png',
+    title: 'Skin Cancer Classifier',
+    time: '[2020]',
+    description: 'A tool for training Teachable Machine models to classify skin cancer.',
+    link: 'https://github.com/liam-ilan/science-fair'
+  },
+  {
     image: '../img/repl-hero.png',
     title: 'Repl Hero',
     time: '[2019]',

@@ -3,13 +3,13 @@
   src: url(../fonts/mono.otf);
 }
 
-a{
-  text-decoration: none;
-}
-
 body{
   font-family: mono;
   margin: 0px;
+}
+
+a{
+  text-decoration: none;
 }
 
 @keyframes hover {
@@ -86,4 +86,13 @@ body{
   padding: 20px;
   background-color: #eee;
   text-align: center;
+}
+
+.link {
+  color: #789;
+}
+
+.link:hover {
+  animation-name: hover;
+  animation-duration: 0.5s;
 }
