@@ -60,8 +60,18 @@ a{
   width: 30vw;
 }
 
+.link {
+  color: #789;
+}
+
+.link:hover {
+  animation-name: hover;
+  animation-duration: 0.5s;
+}
+
 #boxes{
   text-align: center;
+  padding: 20px 0;
 }
 
 #title-box{
@@ -86,13 +96,4 @@ a{
   padding: 20px;
   background-color: #eee;
   text-align: center;
-}
-
-.link {
-  color: #789;
-}
-
-.link:hover {
-  animation-name: hover;
-  animation-duration: 0.5s;
 }
