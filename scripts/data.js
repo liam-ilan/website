@@ -1,4 +1,6 @@
-let data = [
+/* eslint-disable no-unused-vars */
+
+const data = [
   {
     image: '../img/ccc-challenge.png',
     title: 'CCC Challenge',

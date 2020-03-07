@@ -1,7 +1,8 @@
+/* global data */
 
 // a box class for every project
 class Box {
-  constructor(titleInput, textInput, imgInput, linkInput, timeInput) {
+  constructor (titleInput, textInput, imgInput, linkInput, timeInput) {
     // get inputs
     this.title = titleInput
     this.text = textInput
@@ -10,27 +11,27 @@ class Box {
     this.time = timeInput
 
     // the wrapper
-    let box = document.createElement('a')
+    const box = document.createElement('a')
     box.className = 'box'
     box.href = this.link
 
     // the image
-    let img = document.createElement('img')
+    const img = document.createElement('img')
     img.src = this.img
     img.className = 'box-img'
 
     // the title
-    let title = document.createElement('div')
+    const title = document.createElement('div')
     title.innerHTML = this.title
     title.className = 'box-title'
 
     // the time
-    let time = document.createElement('div')
+    const time = document.createElement('div')
     time.innerHTML = this.time
     time.className = 'box-time'
 
     // the text
-    let text = document.createElement('div')
+    const text = document.createElement('div')
     text.innerHTML = this.text
     text.className = 'box-text'
 
@@ -45,4 +46,4 @@ class Box {
   }
 }
 
-data = data.map((item) => new Box(item.title, item.description, item.image, item.link, item.time))
+data.forEach((item) => new Box(item.title, item.description, item.image, item.link, item.time))
