@@ -2,6 +2,13 @@
 
 const data = [
   {
+    image: '../img/virus-simulator.png',
+    title: 'Virus Simulator',
+    time: '[2020]',
+    description: 'A playground to simulate the spread of a virus.',
+    link: 'https://github.com/liam-ilan/virus-simulator'
+  },
+  {
     image: '../img/ccc-challenge.png',
     title: 'CCC Challenge',
     time: '[2020]',
