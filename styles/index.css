@@ -3,12 +3,12 @@
   src: url(../fonts/mono.otf);
 }
 
-body{
+body {
   font-family: mono;
   margin: 0px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -24,37 +24,37 @@ a{
   }
 }
 
-.box{
+.box {
   display: inline-block;
   color: #212121;
   margin: 1vw;
   display: inline-table;
 }
 
-.box-img{
+.box-img {
   width: 30vw;
   height: 15vw;
   object-fit: contain;
 }
 
-.box-img:hover{
+.box-img:hover {
   animation-name: hover;
   animation-duration: 0.5s;
 }
 
-.box-title{
+.box-title {
   font-size: 30px;
   text-align: center;
   width: 30vw;
 }
 
-.box-text{
+.box-text {
   font-size: 20px;
   text-align: center;
   width: 30vw;
 }
 
-.box-time{
+.box-time {
   font-size: 18px;
   text-align: center;
   width: 30vw;
@@ -69,29 +69,29 @@ a{
   animation-duration: 0.5s;
 }
 
-#boxes{
+#boxes {
   text-align: center;
   padding: 20px 0;
 }
 
-#title-box{
+#title-box {
   background-color: #212121;
   padding: 30px;
 }
 
-#title{
+#title {
   text-align: center;
-  font-size: 50px;
+  font-size: 4.4vw;
   color: #ffffff;
 }
 
-#subtitle{
+#subtitle {
+  font-size: 2.2vw;
   text-align: center;
-  font-size: 30px;
   color: #009cc8;
 }
 
-#link-row{
+#link-row {
   font-size: 2.2vw;
   padding: 20px;
   background-color: #eee;
