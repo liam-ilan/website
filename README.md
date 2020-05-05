@@ -2,7 +2,7 @@
 ## Liam Ilan
 
 ### What is this?
-My personal website. https://liamilan.surge.sh
+My personal website. https://liamilan.com
 
 ### How do I use this?
 To start the server, run:

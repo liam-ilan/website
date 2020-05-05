@@ -2,6 +2,13 @@
 
 const data = [
   {
+    image: '../img/hauk.png',
+    title: 'The HAUK Project',
+    time: '[2020]',
+    description: 'A site that generates stories using Markov Chains.',
+    link: 'https://github.com/liam-ilan/sad-story-generator'
+  },
+  {
     image: '../img/virus-simulator.png',
     title: 'Virus Simulator',
     time: '[2020]',
