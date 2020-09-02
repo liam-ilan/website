@@ -16,7 +16,7 @@ To lint, run:
 ```
 
 ### How do you add content?
-The file `scripts/data.json` contains a list of objects, each one representing a different content box. The data is represented like this:
+The file `scripts/data.js` contains a list of objects, each one representing a different content box. The data is represented like this:
 
 ```
   {

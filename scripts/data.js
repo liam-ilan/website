@@ -2,6 +2,20 @@
 
 const data = [
   {
+    image: '../img/clyde.png',
+    title: 'Clyde',
+    time: '[2020]',
+    description: 'A language developed with Pranav Karthik that helps you to build a discord bot.',
+    link: 'https://repl.it/talk/challenge/Clyde-The-Discord-Bot-Programming-Language/51541'
+  },
+  {
+    image: '../img/fmdb.png',
+    title: 'FMDB',
+    time: '[2020]',
+    description: 'An app that helps a family keep a record of movies watched, created with Java.',
+    link: 'https://github.com/liam-ilan/fmdb'
+  },
+  {
     image: '../img/hauk.png',
     title: 'The HAUK Project',
     time: '[2020]',
