@@ -2,6 +2,13 @@
 
 const data = [
   {
+    image: '../img/oddify.png',
+    title: 'Oddify',
+    time: '[2021]',
+    description: "A discord bot built to paste Oddish's face onto random Pokemon, flags and pfps.",
+    link: 'https://github.com/liam-ilan/oddify'
+  },
+  {
     image: '../img/clyde.png',
     title: 'Clyde',
     time: '[2020]',
