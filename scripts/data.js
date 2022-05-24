@@ -2,6 +2,20 @@
 
 const data = [
   {
+    image: '../img/pi-cubes.jpg',
+    title: 'Pi and Bouncing Cubes',
+    time: '[2022]',
+    description: 'A visualisation of how bouncing cubes can be used to compute pi.',
+    link: 'https://bouncing-cubes.snowboardsheep.repl.co/'
+  },
+  {
+    image: '../img/spotloader.jpg',
+    title: 'SpotLoader',
+    time: '[2022]',
+    description: 'A site that downloads Spotify playlists.',
+    link: 'https://github.com/liam-ilan/spotloader'
+  },
+  {
     image: '../img/oddify.jpg',
     title: 'Oddify',
     time: '[2021]',
@@ -83,7 +97,7 @@ const data = [
     title: 'Sticky Quest',
     time: '[2018]',
     description: 'A simple block in a quest for love.',
-    link: 'https://itunes.apple.com/ca/app/sticky-quest/id1425679649'
+    link: 'https://github.com/liam-ilan/sticky-quest'
   },
   {
     image: '../img/wolfram.jpg',
