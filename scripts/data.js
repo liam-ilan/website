@@ -2,6 +2,62 @@
 
 const data = [
   {
+    image: '../img/math-interpreter.png',
+    title: 'Just a Math Interpreter',
+    time: '[2023]',
+    description: 'Built in C, compiled to WASM.',
+    link: 'https://liam-ilan.github.io/math-interpreter/'
+  },
+  {
+    image: '../img/vis-the-imp.png',
+    title: 'Visualizing the Impossible',
+    time: '[2023]',
+    description: 'Numerically approximating the time dependent schrödinger equation for computer visualization.',
+    link: 'https://liam-ilan.github.io/time-dependent-schrodinger-equation/'
+  },
+  {
+    image: '../img/orbital.png',
+    title: 'The Periodic Table of Orbitals',
+    time: '[2023]',
+    description: 'An educational resource on electron orbitals.',
+    link: 'https://liam-ilan.github.io/electron-orbitals/'
+  },
+  {
+    image: '../img/chem-ia.png',
+    title: 'Chemistry IA',
+    time: '[2023]',
+    description: 'The Effect of Sodium Sulfate Concentration on the Rate of Production of Hydrogen Gas in the Electrolysis of Water',
+    link: 'https://github.com/liam-ilan/chemistry-ia'
+  },
+  {
+    image: '../img/phys-ia.png',
+    title: 'Physics IA',
+    time: '[2023]',
+    description: 'The Moment of Inertia of a Cardboard Equilateral Triangle Around its Centroid',
+    link: 'https://github.com/liam-ilan/physics-ia'
+  },
+  {
+    image: '../img/geo-ia.png',
+    title: 'The Urban Heat Island Effect in Vancouver',
+    time: '[2023]',
+    description: 'My IB Geography Internal Assesment for the May 2023 examanation session.',
+    link: 'https://github.com/liam-ilan/geography-ia'
+  },
+  {
+    image: '../img/python-cube.png',
+    title: 'Python Cube',
+    time: '[2022]',
+    description: 'A cube wireframe renderer, in a 45x45 Python script.',
+    link: 'https://github.com/liam-ilan/python-cube'
+  },
+  {
+    image: '../img/math-ee.png',
+    title: 'Computing Pi with Bouncing Cubes',
+    time: '[2022]',
+    description: 'A paper on the surprising connection between Pi and bouncing cubes.',
+    link: 'https://github.com/liam-ilan/extended-essay'
+  },
+  {
     image: '../img/pi-cubes.jpg',
     title: 'Pi and Bouncing Cubes',
     time: '[2022]',

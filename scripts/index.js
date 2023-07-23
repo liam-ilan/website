@@ -19,6 +19,7 @@ class Box {
     const img = document.createElement('img')
     img.src = this.img
     img.className = 'box-img'
+    img.alt = this.text
 
     // the title
     const title = document.createElement('div')
