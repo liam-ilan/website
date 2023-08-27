@@ -2,6 +2,13 @@
 
 const data = [
   {
+    image: '../img/crumb.png',
+    title: 'Crumb',
+    time: '[2023]',
+    description: 'A high level, functional programming language, with a terse syntax, and a verbose standard library.',
+    link: 'https://github.com/liam-ilan/crumb'
+  },
+  {
     image: '../img/math-interpreter.png',
     title: 'Just a Math Interpreter',
     time: '[2023]',
