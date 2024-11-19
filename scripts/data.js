@@ -2,10 +2,17 @@
 
 const data = [
   {
+    image: '../img/terminal3d.png',
+    title: 'Terminal3d',
+    time: '[2024]',
+    description: 'A cli tool to view 3d models in the terminal, with 100+ stars on Github.',
+    link: 'https://github.com/liam-ilan/terminal3d'
+  },
+  {
     image: '../img/crumb.png',
     title: 'Crumb',
     time: '[2023]',
-    description: 'A high level, functional programming language, with a terse syntax, and a verbose standard library.',
+    description: 'A high level, functional programming language implemented in C, with 400+ stars on Github.',
     link: 'https://github.com/liam-ilan/crumb'
   },
   {
