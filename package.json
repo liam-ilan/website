@@ -1,33 +1,15 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "My website.",
+  "description": "Personal website.",
   "main": "index.js",
   "scripts": {
     "start": "npx http-server -c-1",
-    "lint": "npx eslint . --fix"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liam-ilan/website.git"
-  },
-  "keywords": [
-    "website",
-    "liam",
-    "ilan"
-  ],
   "author": "Liam Ilan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/liam-ilan/website/issues"
-  },
-  "homepage": "https://github.com/liam-ilan/website#readme",
+  "license": "UNLICENSED",
   "devDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "http-server": "^14.1.1"
   }
 }

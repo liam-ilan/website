@@ -1,37 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8"/>
     <title>Liam ilan</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="author" content="Liam Ilan">
-    <meta name="description" content="Personal site of developer, snowboard instructor, and student, Liam Ilan">
+    <meta name="description" content="Personal site of student software engineer Liam Ilan">
     <meta property="og:title" content="Liam Ilan">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.liamilan.com/">
     <meta property="og:image" content="https://www.liamilan.com/favicon.ico">
-    <meta property="og:description" content="Personal site of developer, snowboard instructor, and student, Liam Ilan">
+    <meta property="og:description" content="Personal site of student software engineer Liam Ilan">
   </head>
+
   <body>
+    <div id="container">
+      <div id="header">
+        <h1 class="main-title">Liam Ilan</h1>
+        <div class="tagline">
+          SWE Intern <a href="https://allspice.io/">@AllSpice.io</a>, 
+          Validation Lead <a href="https://www.ubcformulaelectric.com/">@UBC Formula Electric</a>, 
+          <span>CS & Physics @ UBC</span>
+        </div>
 
-    <div id="title-box">
-      <div id="title">Liam Ilan</div>
-      <div id="subtitle">Engineer, Student, Snowboard Instructor</div>
+        <div class="socials">
+          <a class="socials-link" href="https://github.com/liam-ilan">
+            <img class="socials-icon" src="./assets/icons/github.svg" alt="GitHub">
+          </a>
+          <a class="socials-link" href="https://www.linkedin.com/in/liam-ilan/">
+            <img class="socials-icon" src="./assets/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a class="socials-link" href="https://news.ycombinator.com/submitted?id=liamilan">
+            <img class="socials-icon" src="./assets/icons/hn.svg" alt="HN">
+          </a>
+          <a class="socials-link" href="https://www.reddit.com/user/liamilan/">
+            <img class="socials-icon" src="./assets/icons/reddit.svg" alt="Reddit">
+          </a>
+        </div>
+      </div>
+
+      <div id="content">
+        <div id="projects">
+          <h2 class="section-title">Featured Projects</h2>
+          <!--
+            TEMPLATE:
+            <div id="PROJECT-NAME" class="project-item">
+              <a class="project-image-container" href="PROJECT-URL">
+                <img class="project-image" src="PROJECT-IMAGE-PATH" alt="PROJECT-IMAGE-ALT-TEXT">
+              </a>
+              <div class="project-text-container">
+                <h3 class="project-title">PROJECT-NAME</h3>
+                <div class="project-subtitle">YEAR | 
+                  <a class="project-link" href="LINK">
+                    <img class="project-link-icon" src="ICON-PATH" alt="ICON-ALT-TEXT">
+                  </a>
+                  ...
+                </div>
+                <div class="project-content">
+                  CONTENT
+                </div>
+              </div>
+            </div>
+          -->
+
+          <!-- Terminal3d. -->
+          <div id="terminal3d" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/terminal3d">
+              <img class="project-image" src="./assets/projects/terminal3d.png" alt="Terminal3d Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Terminal3d</h3>
+              <div class="project-subtitle">2024 | 
+                <a class="project-link" href="https://github.com/liam-ilan/terminal3d">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                200+ stars ⭐ on Github! A CLI tool to view 3d models in the terminal, written in Rust.
+              </div>
+            </div>
+          </div>
+
+          <!-- Crumb. -->
+          <div id="crumb" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/crumb">
+              <img class="project-image" src="./assets/projects/crumb.svg" alt="Crumb Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Crumb</h3>
+              <div class="project-subtitle">2022 - 2024 | 
+                <a class="project-link" href="https://github.com/liam-ilan/crumb">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                400+ stars ⭐ on Github! A high level, functional programming language implemented in C.
+              </div>
+            </div>
+          </div>
+
+          <!-- The Periodic Table of Orbitals -->
+          <div id="periodic-table-of-orbitals" class="project-item">
+            <a class="project-image-container" href="https://liam-ilan.github.io/electron-orbitals/">
+              <img class="project-image" src="./assets/projects/periodic-table-of-orbitals.png" alt="Periodic Table of Orbitals Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">The Periodic Table of Orbitals</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/electron-orbitals">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An educational resource on/renderer of electron orbitals, built in highschool to learn a bit about quantum mechanics.
+              </div>
+            </div>
+          </div>
+
+          <!-- Visualizing the Impossible -->
+          <div id="visualizing-the-impossible" class="project-item">
+            <a class="project-image-container" href="https://liam-ilan.github.io/time-dependent-schrodinger-equation/">
+              <img class="project-image" src="./assets/projects/visualizing-the-impossible.png" alt="Visualizing the Impossible Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Visualizing The Impossible</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/time-dependent-schrodinger-equation">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An article/simulation written for the Summer of Math Exposition, on using discretization to numerically simulate the Time Dependent Schrödinger Equation.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Archive -->
+        <div id="old-projects">
+
+          <!-- 
+            Make the heading the label of a hidden checkbox.
+            Allows us to use some CSS tricks to make this section a dropdown.
+          -->
+          <input type="checkbox" id="old-projects-title-ctrl"/>
+          <label for="old-projects-title-ctrl">
+            <h2 class="section-title" id="old-projects-title">More Projects <span id="expand-symbol">[+]</span></h2>
+          </label>
+
+          <!--
+            TEMPLATE:
+            <div id="PROJECT-NAME" class="project-item">
+              <a class="project-image-container" href="PROJECT-URL">
+                <img class="project-image" src="PROJECT-IMAGE-PATH" alt="PROJECT-IMAGE-ALT-TEXT">
+              </a>
+              <div class="project-text-container">
+                <h3 class="project-title">PROJECT-NAME</h3>
+                <div class="project-subtitle">YEAR | 
+                  <a class="project-link" href="LINK">
+                    <img class="project-link-icon" src="ICON-PATH" alt="ICON-ALT-TEXT">
+                  </a>
+                  ...
+                </div>
+                <div class="project-content">
+                  CONTENT
+                </div>
+              </div>
+            </div>
+          -->
+
+          <!-- Math interpreter. -->
+          <div id="math-interpreter" class="project-item">
+            <a class="project-image-container" href="https://liam-ilan.github.io/math-interpreter/">
+              <img class="project-image" src="./assets/projects/math-interpreter.png" alt="Math Interpreter Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">WASM Math Interpreter</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/math-interpreter">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An experiment with WASM and emiscripten - a simple math expression interpreter written in C.
+              </div>
+            </div>
+          </div>
+
+          <!-- Urban Heat Island Effect. -->
+          <div id="heat-island" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/geography-ia">
+              <img class="project-image" src="./assets/projects/heat-island.png" alt="Heat Island Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Vancouver Urban Heat Island Analysis</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/geography-ia">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                Custom software to produce heat, vegetation, and building density maps of vancouver, written for my Geography Internal Assesment in Highschool.
+              </div>
+            </div>
+          </div>
+
+          <!-- Python Cube. -->
+          <div id="python-cube" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/python-cube">
+              <img class="project-image" src="./assets/projects/python-cube.png" alt="Python Cube Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Obfuscated Python Cube</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/python-cube">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A quick experiment in artistic code obfuscation, a 3d cube renderer in a 45x45 Python script.
+              </div>
+            </div>
+          </div>    
+
+          <!-- Pi Cubes. -->
+          <div id="pi-cubes" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/extended-essay">
+              <img class="project-image" src="./assets/projects/pi-cubes.jpg" alt="Pi Cube Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Using Elastic Cubes to Compute Pi</h3>
+              <div class="project-subtitle">2023 | 
+                <a class="project-link" href="https://github.com/liam-ilan/extended-essay">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                Simulation software and summary paper on computing Pi with billiards, written for my IB Extended Essay.
+              </div>
+            </div>
+          </div>
+
+          <!-- Spotloader -->
+          <div id="spotloader" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/spotloader">
+              <img class="project-image" src="./assets/projects/spotloader.jpg" alt="Spotloader Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Spotloader</h3>
+              <div class="project-subtitle">2022 | 
+                <a class="project-link" href="https://github.com/liam-ilan/spotloader">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A tool to download spotify playlists, built with Flask and Python.
+              </div>
+            </div>
+          </div>
+
+          <!-- Oddify -->
+          <div id="spotloader" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/oddify">
+              <img class="project-image" src="./assets/projects/oddify.jpg" alt="Oddify Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Oddify</h3>
+              <div class="project-subtitle">2021 | 
+                <a class="project-link" href="https://github.com/liam-ilan/oddify">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A discord bot built to paste Oddish's face onto random Pokemon, flags and profile pictures.
+              </div>
+            </div>
+          </div>
+
+          <!-- Clyde -->
+          <div id="clyde" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/clyde">
+              <img class="project-image" src="./assets/projects/clyde.png" alt="Clyde Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Clyde</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/clyde">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A domain-specific programming language for building Discord bots, written for the Replit Language Jam with my teammate, Pranav Karthik.
+              </div>
+            </div>
+          </div>
+
+          <!-- FMDB -->
+          <div id="fmdb" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/fmdb">
+              <img class="project-image" src="./assets/projects/fmdb.jpg" alt="FMDB Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">FMDB</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/fmdb">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A Java application that helps families keep track of the moves they've watched, written for Computer Science 11.
+              </div>
+            </div>
+          </div>
+
+          <!-- HAUK Project -->
+          <div id="hauk" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/sad-story-generator">
+              <img class="project-image" src="./assets/projects/hauk.jpg" alt="HAUK Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Markov Chain Text-Generation</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/sad-story-generator">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An experiment in text-generation using first and second-order markov chains, built for a highschool philosophy project.
+              </div>
+            </div>
+          </div>
+
+          <!-- Virus Simulator Project -->
+          <div id="virus-simulator" class="project-item">
+            <a class="project-image-container" href="https://liam-ilan.github.io/virus-simulator/">
+              <img class="project-image" src="./assets/projects/virus-simulator.jpg" alt="Virus Sim Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Virus Simulator</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/virus-simulator">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A web-visualization of a spatial SIR model to simulate Viral spread, inspired by Grant Sanderson's "Simulating a Pandemic".
+              </div>
+            </div>
+          </div>
+
+          <!-- CCC Challenge -->
+          <div id="ccc-challenge" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/ccc-challenge">
+              <img class="project-image" src="./assets/projects/ccc-challenge.jpg" alt="Virus Sim Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">CCC Challenge</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/ccc-challenge">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                Some personal practice for the Canadian Computing Competition.
+              </div>
+            </div>
+          </div>
+
+          <!-- Skin Cancer Classifier Tooling -->
+          <div id="skin-cancer-classifier" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/science-fair">
+              <img class="project-image" src="./assets/projects/skin-cancer-classifier.jpg" alt="Skin Cancer Classifier Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Skin Cancer Classifier Tooling</h3>
+              <div class="project-subtitle">2020 | 
+                <a class="project-link" href="https://github.com/liam-ilan/science-fair">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                Tooling to train a skin cancer classifier using the ISIC dataset, built as a science fair project.
+              </div>
+            </div>
+          </div>
+
+          <!-- Repl Hero -->
+          <div id="repl-hero" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/repl-hero">
+              <img class="project-image" src="./assets/projects/repl-hero.jpg" alt="Repl Hero Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Repl Hero</h3>
+              <div class="project-subtitle">2019 | 
+                <a class="project-link" href="https://github.com/liam-ilan/repl-hero">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A guitar hero style game, an experiment in doing TUI-style visuals in the browser, written for the Replit online music hackathon.
+              </div>
+            </div>
+          </div>
+
+          <!-- Sendverse -->
+          <div id="repl-hero" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/sendverse">
+              <img class="project-image" src="./assets/projects/sendverse.jpg" alt="Sendverse Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Sendverse</h3>
+              <div class="project-subtitle">2019 | 
+                <a class="project-link" href="https://github.com/liam-ilan/sendverse">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An anonymous chatting app I built in highschool to learn about sockets, also implemented in <a href="https://github.com/liam-ilan/sendverse-python">Python</a>.
+              </div>
+            </div>
+          </div>
+
+          <!-- Monty Hall Problem -->
+          <div id="monty-hall-problem" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/monty-hall-problem">
+              <img class="project-image" src="./assets/projects/monty-hall.jpg" alt="Monty Hall Problem Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Monty Hall Problem Experiment</h3>
+              <div class="project-subtitle">2019 | 
+                <a class="project-link" href="https://github.com/liam-ilan/monty-hall-problem">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                Both an interactive experiment and simulation of the Monty Hall Problem, built for a grade 8 science fair.
+              </div>
+            </div>
+          </div>
+
+          <!-- Forest Generation -->
+          <div id="forest-generation" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/forest-generation-cellular-automata">
+              <img class="project-image" src="./assets/projects/forest.jpg" alt="Forest Generation Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Forest Generation Cellular Automata</h3>
+              <div class="project-subtitle">2018 | 
+                <a class="project-link" href="https://github.com/liam-ilan/forest-generation-cellular-automata">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                A custom cellular automata that generates trees in your terminal, used for various profile pictures ever since.
+              </div>
+            </div>
+          </div>
+
+          <!-- Wolfram Cellular Automata -->
+          <div id="wolfram" class="project-item">
+            <a class="project-image-container" href="https://news.ycombinator.com/item?id=17871313">
+              <img class="project-image" src="./assets/projects/wolfram.jpg" alt="Wolfram Cellular Automata Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Wolfram's Cellular Automata</h3>
+              <div class="project-subtitle">2018 | 
+                <a class="project-link" href="https://github.com/liam-ilan/wolfram-cellular-automata">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An implementation of Wolfram's Cellular Automata in JavaScript, front-paged on Hacker News the summer before grade 8.
+              </div>
+            </div>
+          </div>
+
+          <!-- Game of Life -->
+          <div id="game-of-life" class="project-item">
+            <a class="project-image-container" href="https://github.com/liam-ilan/game-of-life">
+              <img class="project-image" src="./assets/projects/game-of-life.jpg" alt="Game of Life Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">TUI Game of Life</h3>
+              <div class="project-subtitle">2018 | 
+                <a class="project-link" href="https://github.com/liam-ilan/game-of-life">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                An implementation of the Game of Life that renders in the terminal, written in JavaScript.
+              </div>
+            </div>
+          </div>
+
+          <!-- Do not Shear the Sheep -->
+          <div id="do-not-shear-the-sheep" class="project-item">
+            <a class="project-image-container" href="http://do-not-shear-the-sheep.surge.sh/">
+              <img class="project-image" src="./assets/projects/do-not-shear-the-sheep.jpg" alt="Do not Shear the Sheep Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Do not Shear the Sheep</h3>
+              <div class="project-subtitle">2018 | 
+                <a class="project-link" href="https://github.com/liam-ilan/do-not-shear-the-sheep">
+                  <img class="project-link-icon" src="./assets/icons/github.svg" alt="Github Icon">
+                </a>
+              </div>
+              <div class="project-content">
+                One of my earliest projects, another small game about a sheep avoiding shears.
+              </div>
+            </div>
+          </div>
+
+          <!-- Asteroid-dodge -->
+          <div id="asteroid-dodge" class="project-item">
+            <a class="project-image-container" href="https://asteroid-dodge.surge.sh/">
+              <img class="project-image" src="./assets/projects/asteroid-dodge.svg" alt="Asteroid Dodge Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">Asteroid Dodge</h3>
+              <div class="project-subtitle">2017</div>
+              <div class="project-content">
+                One of my earliest projects, a small arcade game about dodging asteroids. 
+              </div>
+            </div>
+          </div>
+
+          <!-- Train Game -->
+          <div id="train-game" class="project-item">
+            <a class="project-image-container" href="https://the-train-game.surge.sh/">
+              <img class="project-image" src="./assets/projects/the-train-game.png" alt="The Train Game Image">
+            </a>
+            <div class="project-text-container">
+              <h3 class="project-title">The Train Game</h3>
+              <div class="project-subtitle">2017</div>
+              <div class="project-content">
+                The project that started it all. A game about stopping trains.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <hr />
+
+        <div id="career">
+          <h2 class="section-title">Career</h2>
+          <!--
+            TEMPLATE:
+            <div id="COMPANY-NAME" class="career-item">
+              <a class="career-icon-container" href="LINK-TO-COMPANY">
+                <img class="career-icon" src="COMPANY-ICON-PATH" alt="COMPANY-ICON-ALT-TEXT">
+              </a>
+              <h3 class="career-title">MY-ROLE</h2>
+              <div class="career-subtitle">COMPANY-NAME | COMPANY-LOCATION | WHEN</div>
+              <ul class="career-content">
+                <li>CONTENT</li>
+                <li>CONTENT</li>
+                <li>CONTENT</li>
+              </div>
+            </div>
+          -->
+            
+          <!-- Allspice. -->
+          <div id="allspice" class="career-item">
+            <a class="career-icon-container" href="https://allspice.io/">
+              <img class="career-icon" src="./assets/icons/allspice.svg" alt="Allspice Icon">
+            </a>
+            <div class="career-text-container">
+              <h3 class="career-title">Transpiler Software Engineering Intern</h2>
+              <div class="career-subtitle">AllSpice.io | Remote 💻 | Jan 2025 - Apr 2025</div>
+              <ul class="career-content">
+                <li>Building a recursive descent parser for Altium Schematics, written in Rust.</li>
+                <li>Working until April 2025 as part of UBC's computer science co-op program.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Base Power. -->
+          <div id="base-power" class="career-item">
+            <a class="career-icon-container" href="https://www.basepowercompany.com/">
+              <img class="career-icon" src="./assets/icons/base.svg" alt="Base Icon">
+            </a>
+            <div class="career-text-container">
+              <h3 class="career-title">Device Software Engineering Intern</h2>
+              <div class="career-subtitle">Base Power Company | Austin, Texas 🇺🇸 | May 2024 - Aug 2024</div>
+              <ul class="career-content">
+                <li>Built up Base's battery-installer software tooling from scratch in Go.</li>
+                <li>Reworked API of thread-safe interface to Base inverters to be friendly to scale.</li>
+                <li>Built up interfaces to Balena, Hubspot, cellular provider APIs, and RDS instances in Go.</li>
+                <li>One of the first 20 employees in a venture funded startup.</li>
+              </ul>
+            </div>
+          </div> 
+
+          <!-- UBC Formula Electric. -->
+          <div id="ubc-forumla-e" class="career-item">
+            <a class="career-icon-container" href="https://www.ubcformulaelectric.com/">
+              <img class="career-icon" src="./assets/icons/formula-e.png" alt="Formula E Icon">
+            </a>
+            <div class="career-text-container">
+              <h3 class="career-title">Validation Lead</h2>
+              <div class="career-subtitle">UBC Formula Electric | Vancouver, Canada 🇨🇦 | Sept 2023 - Now</div>
+              <ul class="career-content">
+                <li>Leading a subteam building a hardware-in-loop and software-in-loop tools.</li>
+                <li>Built a simulated CAN bus over CZMQ socket to run vehicle firmware locally.</li>
+                <li>Writing an RPC-over-USB system to test boards in Python, and eventually the whole vehicle.</li>
+                <li>In my first year, wrote firmware for the Front Sensor Module and Vehicle Controller.</li>
+              </ul>
+            </div>
+          </div> 
+
+        </div>
+      </div>
     </div>
-
-    <div id="link-row">
-      <a class="link" href="https://github.com/liam-ilan">Github</a> - 
-      <a class="link" href="https://www.linkedin.com/in/liam-ilan/">Linkedin</a> -
-      <a class="link" href="https://news.ycombinator.com/submitted?id=liamilan">Hacker News</a> - 
-      <a class="link" href="https://www.reddit.com/user/liamilan">Reddit</a>
-
-    </div>
-
-    <div id="boxes"></div>
-
-    <script src="scripts/data.js"></script>
-    <script src="scripts/index.js"></script>
   </body>
 </html>
